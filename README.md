@@ -3,7 +3,8 @@ echoping
 
 echoping **was** a small program to test (approximatively) performances of a remote host by sending it requests such as HTTP requests.
 
-echoping is **no longer** maintained.
+echoping is **no longer** maintained. This repository is for
+historical interest only.
 
 To use it, simply:
 
