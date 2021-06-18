@@ -10,6 +10,8 @@ dnl Checking size of ints, we often need it for binary protocols like ICP
 AC_CHECK_SIZEOF(int)
 AC_CHECK_SIZEOF(long)
 
+
+
 dnl User options
 dnl http://sources.redhat.com/ml/automake-prs/2001-q3/msg00033.html
 max_iterations_specified=0
@@ -132,6 +134,8 @@ AC_ARG_WITH(popt,
 )
 
 dnl Checks for programs.
+#AC_GNU_SOURCE
+AC_DEFINE([_GNU_SOURCE], [], [Enable GNU extensions.])
 AC_PROG_CC
 AC_PROG_INSTALL
 
